@@ -9,3 +9,5 @@ code is organized in folders as follows:
 - kmeans: code employed to divide dataset into folds for the cross-validation and generation of training files
 
 - ML_models: code employed to train and test all machine learning models employed
+
+donwload, unzip and use the code. Be sure hardcoded paths are changed

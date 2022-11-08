@@ -2,6 +2,8 @@
 
 Executables and code for "Prediction of bacterial interactions using metabolic network features" Silva et al.
 
+alberto.martin@uss.cl
+
 code is organized in folders as follows:
 
 - networkreconstruction: code employed to reconstruct and check metabolic networks
@@ -10,4 +12,4 @@ code is organized in folders as follows:
 
 - ML_models: code employed to train and test all machine learning models employed
 
-donwload, unzip and use the code. Be sure hardcoded paths are changed
+Be sure hardcoded paths are changed

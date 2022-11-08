@@ -1,0 +1,12 @@
+# we used docker with AuReMe version 2.4
+
+# we follow the steps for this link https://aureme.readthedocs.io/en/latest/aureme.html#the-default-workflow
+# to create the metabolic reconstruction (Orthology-based) for each genome, using vmh database 
+
+# we used the vmh database (in zip file) download from vmh database
+# we need create a new database inside the docker in /home/data/database/vmh and copy the unzip file data
+
+
+# script to extract reactions from sbml was executed "python3 revisa_sbml.py file.sbml reax_file.txt", where
+# "file.sbml" is the output from aureme reconstruction and "reax_file.txt" is a list of reaction to use.
+

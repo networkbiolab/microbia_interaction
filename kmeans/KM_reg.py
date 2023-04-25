@@ -8,7 +8,7 @@ nClusters = 10;
 
 # Read the data
 #~ print("==Reading file==")
-df = pd.read_csv("/media/amartin/12TB1/interaccion_bacteria/data/4clustering.tsv", sep='\t')
+df = pd.read_csv("/home/clau/Escritorio/microbia_interaction-main/kmeans/4clustering.tsv", sep='\t')
 y = np.array(df['target'])
 feature_list = list(df.columns)
 df = np.array(df.drop('target', axis=1));

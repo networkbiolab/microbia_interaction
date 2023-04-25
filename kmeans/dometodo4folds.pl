@@ -2,7 +2,7 @@
 use strict;
 
 my $dir = shift @ARGV;
-my $folder = '/media/amartin/12TB1/interaccion_bacteria/data';
+my $folder = '/home/clau/Escritorio/microbia_interaction-main/kmeans';
 my $f = "$folder/4clustering.tsv";
 my $c = "$folder/clusters.tsv";
 my $h = `head -n1 $f`;
@@ -49,16 +49,16 @@ while(my $l = shift @dc){
 		print "$t[0]\n";
 	}
 	else{
-		if($t[1] == 1 || $t[1] == 4 || $t[1] == 7){
+		if($t[1] == 2 || $t[1] == 4 || $t[1] == 6){
 			$fold{"F0"} .= "$n{$t[0]}\n";
 		}
-		elsif($t[1] == 0 || $t[1] == 2 || $t[1] == 9){
+		elsif($t[1] == 0 || $t[1] == 8 || $t[1] == 9){
 			$fold{"F1"} .= "$n{$t[0]}\n";
 		}
-		elsif($t[1] == 5 || $t[1] == 8){
+		elsif($t[1] == 1 || $t[1] == 3){
 			$fold{"F2"} .= "$n{$t[0]}\n";
 		}
-		elsif($t[1] == 3 || $t[1] == 6){
+		elsif($t[1] == 5 || $t[1] == 7){
 			$fold{"F3"} .= "$n{$t[0]}\n";
 		}
 	}
@@ -81,7 +81,7 @@ for (my $i = 0; $i < @k; $i++){
 }
 
 #clusters clustered into 4 clusters
-#~ Fold0 1+4+7	660
-#~ Fold1 0+2+9	667
-#~ Fold2 8+5	660
-#~ Fold3 3+6	637
+#~ Fold0 2+4+6	693
+#~ Fold1 0+8+9	659
+#~ Fold2 1+3	688
+#~ Fold3 5+7	612

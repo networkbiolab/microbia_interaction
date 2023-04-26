@@ -1,6 +1,6 @@
 # microbia_interaction
 
-Executables and code for "Prediction of bacterial interactions using metabolic network features" Silva et al.
+Executables and code for "Using metabolic networks to predict cross-feeding and competition interactions between microorganisms" Silva et al.
 
 alberto.martin@uss.cl
 
@@ -11,6 +11,7 @@ code is organized in folders as follows:
 - kmeans: code employed to divide dataset into folds for the cross-validation and generation of training files
 
 - ML_models: code employed to train and test all machine learning models employed
+  -models: trained models for each algorithm
 
 - data: datafiles employed to carry out the research described in the article
 

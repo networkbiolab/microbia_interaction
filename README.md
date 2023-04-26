@@ -11,7 +11,8 @@ code is organized in folders as follows:
 - kmeans: code employed to divide dataset into folds for the cross-validation and generation of training files
 
 - ML_models: code employed to train and test all machine learning models employed
-  -models: trained models for each algorithm
+
+- ML_models/models: trained models for each algorithm
 
 - data: datafiles employed to carry out the research described in the article
 
